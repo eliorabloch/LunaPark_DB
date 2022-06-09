@@ -1,0 +1,6 @@
+--ברצוננו לדעת לגבי סוג המבקרים כמה מגיעים מכל סוג לפארק
+SELECT VISITOR_TYPE "TYPE OF VISITOR", COUNT(*)"NUMBER OF THAT TYPE"
+FROM VISITOR
+GROUP BY VISITOR_TYPE
+
+SELECT * FROM FACILITIES
